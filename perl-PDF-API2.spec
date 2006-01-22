@@ -7,12 +7,12 @@
 %define		pnam	API2
 Summary:	PDF::API2 - PDF Creation/Modification
 Name:		perl-PDF-API2
-Version:	0.45
+Version:	0.51
 Release:	0.1
 License:	LGPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	894144270853dfee7a209af415e84ab1
+# Source0-md5:	83fa3694ed289493c6ffead473f62a19
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
@@ -68,7 +68,7 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_vendorlib}/PDF/API2/Basic/TTF/Kern
 %dir %{perl_vendorlib}/PDF/API2/Basic/PDF
 %dir %{perl_vendorlib}/PDF/API2/Content
-%dir %{perl_vendorlib}/PDF/API2/Content/Text
+#%dir %{perl_vendorlib}/PDF/API2/Content/Text
 %{perl_vendorlib}/PDF/API2/*.pm
 %{perl_vendorlib}/PDF/API2/Resource/*.pm
 %{perl_vendorlib}/PDF/API2/Resource/*.txt
@@ -89,6 +89,6 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorlib}/PDF/API2/Basic/TTF/Kern/*.pm
 %{perl_vendorlib}/PDF/API2/Basic/PDF/*.pm
 %{perl_vendorlib}/PDF/API2/Content/*.pm
-%{perl_vendorlib}/PDF/API2/Content/Text/*.pm
+#%{perl_vendorlib}/PDF/API2/Content/Text/*.pm
 # and most important
 %{perl_vendorlib}/PDF/API2/HOWTO.pod
