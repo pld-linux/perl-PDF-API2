@@ -6,6 +6,7 @@
 %define		pdir	PDF
 %define		pnam	API2
 Summary:	PDF::API2 - PDF Creation/Modification
+Summary(pl):	PDF::API2 - tworzenie i modyfikowanie dokumentów PDF
 Name:		perl-PDF-API2
 Version:	0.51
 Release:	0.1
@@ -23,7 +24,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This module is 'The Next Generation' of Text::PDF::API which initially
-provided a nice API around the Text::PDF::* modules created by Martin Hosken.
+provided a nice API around the Text::PDF::* modules created by Martin
+Hosken.
+
+%description -l pl
+Ten modu³ to "nowa generacja" Text::PDF::API, pocz±tkowo
+udostêpniaj±cego ³adne API obudowuj±ce modu³y Text::PDF::*, napisane
+przez Martina Hoskena.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -68,7 +75,6 @@ rm -rf $RPM_BUILD_ROOT
 %dir %{perl_vendorlib}/PDF/API2/Basic/TTF/Kern
 %dir %{perl_vendorlib}/PDF/API2/Basic/PDF
 %dir %{perl_vendorlib}/PDF/API2/Content
-#%dir %{perl_vendorlib}/PDF/API2/Content/Text
 %{perl_vendorlib}/PDF/API2/*.pm
 %{perl_vendorlib}/PDF/API2/Resource/*.pm
 %{perl_vendorlib}/PDF/API2/Resource/*.txt
@@ -89,6 +95,5 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorlib}/PDF/API2/Basic/TTF/Kern/*.pm
 %{perl_vendorlib}/PDF/API2/Basic/PDF/*.pm
 %{perl_vendorlib}/PDF/API2/Content/*.pm
-#%{perl_vendorlib}/PDF/API2/Content/Text/*.pm
 # and most important
 %{perl_vendorlib}/PDF/API2/HOWTO.pod
