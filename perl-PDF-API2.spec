@@ -6,7 +6,7 @@
 %define		pdir	PDF
 %define		pnam	API2
 Summary:	PDF::API2 - PDF Creation/Modification
-Summary(pl):	PDF::API2 - tworzenie i modyfikowanie dokumentów PDF
+Summary(pl.UTF-8):   PDF::API2 - tworzenie i modyfikowanie dokumentÃ³w PDF
 Name:		perl-PDF-API2
 Version:	0.51
 Release:	0.1
@@ -27,9 +27,9 @@ This module is 'The Next Generation' of Text::PDF::API which initially
 provided a nice API around the Text::PDF::* modules created by Martin
 Hosken.
 
-%description -l pl
-Ten modu³ to "nowa generacja" Text::PDF::API, pocz±tkowo
-udostêpniaj±cego ³adne API obudowuj±ce modu³y Text::PDF::*, napisane
+%description -l pl.UTF-8
+Ten moduÅ‚ to "nowa generacja" Text::PDF::API, poczÄ…tkowo
+udostÄ™pniajÄ…cego Å‚adne API obudowujÄ…ce moduÅ‚y Text::PDF::*, napisane
 przez Martina Hoskena.
 
 %prep
