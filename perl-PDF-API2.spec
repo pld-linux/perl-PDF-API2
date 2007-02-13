@@ -6,7 +6,7 @@
 %define		pdir	PDF
 %define		pnam	API2
 Summary:	PDF::API2 - PDF Creation/Modification
-Summary(pl.UTF-8):   PDF::API2 - tworzenie i modyfikowanie dokumentów PDF
+Summary(pl.UTF-8):	PDF::API2 - tworzenie i modyfikowanie dokumentów PDF
 Name:		perl-PDF-API2
 Version:	0.51
 Release:	0.1
