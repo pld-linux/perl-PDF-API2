@@ -7,12 +7,12 @@
 Summary:	PDF::API2 - PDF Creation/Modification
 Summary(pl.UTF-8):	PDF::API2 - tworzenie i modyfikowanie dokumentów PDF
 Name:		perl-PDF-API2
-Version:	2.033
+Version:	2.047
 Release:	1
 License:	LGPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/PDF/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	4223a38add42741f996bd67d5f2f8e5b
+# Source0-md5:	3423191d4080d6d0c64e5f46abceac19
 URL:		http://search.cpan.org/dist/PDF-API2/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
